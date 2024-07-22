@@ -24,6 +24,7 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.NIOBIUM_INGOT.get());
                         output.accept(ModItems.NIOBIUM_SCRAP.get());
+                        output.accept(ModItems.NIOBIUM_FRAGMENT.get());
 
                         output.accept(ModBlocks.DEEPSLATE_NIOBIUM_ORE.get());
                         output.accept(ModBlocks.NIOBIUM_BLOCK.get());
