@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "N": {
+      "item": "niobium:niobium_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  S",
+    " R ",
+    "NNN"
+  ],
+  "result": {
+    "item": "niobium:niobium_metal_detector"
+  },
+  "show_notification": true
+}

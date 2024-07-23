@@ -48,7 +48,7 @@ public class Niobium
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.NIOBIUM_INGOT);
-            event.accept(ModItems.NIOBIUM_SCRAP);
+            event.accept(ModItems.NIOBIUM_FRAGMENT);
         }
     }
 

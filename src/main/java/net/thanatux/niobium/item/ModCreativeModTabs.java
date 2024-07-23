@@ -26,6 +26,18 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.NIOBIUM_SCRAP.get());
                         output.accept(ModItems.NIOBIUM_FRAGMENT.get());
 
+                        output.accept(ModItems.NIOBIUM_METAL_DETECTOR.get());
+                        output.accept(ModItems.NIOBIUM_PICKAXE.get());
+                        output.accept(ModItems.NIOBIUM_AXE.get());
+                        output.accept(ModItems.NIOBIUM_SHOVEL.get());
+                        output.accept(ModItems.NIOBIUM_HOE.get());
+                        output.accept(ModItems.NIOBIUM_SWORD.get());
+
+                        output.accept(ModItems.NIOBIUM_HELMET.get());
+                        output.accept(ModItems.NIOBIUM_CHESTPLATE.get());
+                        output.accept(ModItems.NIOBIUM_LEGGINGS.get());
+                        output.accept(ModItems.NIOBIUM_BOOTS.get());
+
                         output.accept(ModBlocks.DEEPSLATE_NIOBIUM_ORE.get());
                         output.accept(ModBlocks.NIOBIUM_BLOCK.get());
                     })

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_niobium_fragment": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "niobium:niobium_fragment"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "niobium:niobium_ingot_from_ore/niobium_ingot_recipe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_niobium_fragment",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "niobium:niobium_ingot_from_ore/niobium_ingot_recipe"
+    ]
+  },
+  "sends_telemetry_event": false
+}

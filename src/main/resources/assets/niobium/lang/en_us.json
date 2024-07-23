@@ -2,9 +2,23 @@
   "item.niobium.niobium_ingot": "Niobium Ingot",
   "item.niobium.niobium_scrap": "Niobium Scrap",
   "item.niobium.niobium_fragment": "Niobium Fragment",
+  "item.niobium.niobium_metal_detector": "Niobium Metal Detector",
 
   "block.niobium.deepslate_niobium_ore": "Niobium Ore",
   "block.niobium.niobium_block": "Niobium Block",
+
+  "tooltip.niobium.niobium_metal_detector.tooltip": "Finds Valuables Underground",
+
+  "item.niobium.niobium_sword": "Niobium Sword",
+  "item.niobium.niobium_axe": "Niobium Axe",
+  "item.niobium.niobium_pickaxe": "Niobium Pickaxe",
+  "item.niobium.niobium_shovel": "Niobium Shovel",
+  "item.niobium.niobium_hoe": "Niobium Hoe",
+
+  "item.niobium.niobium_helmet": "Niobium Helmet",
+  "item.niobium.niobium_chestplate": "Niobium Chestplate",
+  "item.niobium.niobium_leggings": "Niobium Leggings",
+  "item.niobium.niobium_boots": "Niobium Boots",
 
   "creativetab.niobium_tab": "Niobium Mod"
 

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "niobium:niobium_fragment"
+    },
+    {
+      "item": "niobium:niobium_fragment"
+    },
+    {
+      "item": "niobium:niobium_fragment"
+    },
+    {
+      "item": "niobium:niobium_fragment"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "niobium:niobium_ingot"
+  }
+}

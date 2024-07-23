@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "niobium",
+  "ingredient": {
+    "item": "niobium:niobium_scrap"
+  },
+  "result": "niobium:niobium_fragment"
+}
