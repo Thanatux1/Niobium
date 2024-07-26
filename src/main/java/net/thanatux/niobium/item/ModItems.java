@@ -21,7 +21,7 @@ public class ModItems {
     public static final RegistryObject<Item> NIOBIUM_FRAGMENT = ITEMS.register("niobium_fragment",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NIOBIUM_METAL_DETECTOR = ITEMS.register("niobium_metal_detector",
-            () -> new NiobiumMetalDetectorItem(new Item.Properties().durability(35)));
+            () -> new NiobiumMetalDetectorItem(new Item.Properties().durability(55)));
 
     public static final RegistryObject<Item> NIOBIUM_SWORD = ITEMS.register("niobium_sword",
             () -> new SwordItem(ModToolTiers.NIOBIUM, 4, 2, new Item.Properties()));

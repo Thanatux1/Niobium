@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-24T08:09:08.587519	Recipes
+// 1.20.1	2024-07-26T14:36:52.4671916	Recipes
 6dfe36b3717d4091a8b96561593ac048252138eb data/niobium/advancements/recipes/combat/niobium_boots.json
 1a9d88770c0c3decec2df18b1ddaccfc36cc98d5 data/niobium/advancements/recipes/combat/niobium_chestplate.json
 1de5aee612499594a83e9bbef5c0d4388e345c91 data/niobium/advancements/recipes/combat/niobium_helmet.json
@@ -29,7 +29,7 @@ b87f6b07b4ec10a2361c2e1fafdf16354dc00b7d data/niobium/recipes/niobium_hoe.json
 9e701d1c7d64c0ac882e09a6aecc862521049202 data/niobium/recipes/niobium_ingot.json
 5d49ce664e9ef6efe820371240444e09daa10163 data/niobium/recipes/niobium_ingot_from_ore/niobium_ingot_recipe.json
 ae089f473b415040bd2db80bf6db1fcc08063d19 data/niobium/recipes/niobium_leggings.json
-15a041a5b69358c448c5583683be8ed115b48c21 data/niobium/recipes/niobium_metal_detector.json
+8fcfd3f03a1d2320f53f21e758e4eec0e96f4597 data/niobium/recipes/niobium_metal_detector.json
 b768ec965c46eff5c30b96d06f21269e9079c5e2 data/niobium/recipes/niobium_pickaxe.json
 57525391183205c4c462683594ac9ba3677821c9 data/niobium/recipes/niobium_shovel.json
 6ba1818918d8bde20f0fc2a333b9c292c4635207 data/niobium/recipes/niobium_sword.json

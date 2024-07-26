@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-23T19:41:53.5736507	Item Models: niobium
+// 1.20.1	2024-07-26T14:36:52.471191	Item Models: niobium
 37e3be38f77a5eda4ebd5214e7de0c1c1393d2a1 assets/niobium/models/item/niobium_axe.json
 e0edcf7d14cd8b3f75b547a671da06b0d6293199 assets/niobium/models/item/niobium_boots.json
 4b00ec39e1f00c02b3384b47c950d762610aa0fc assets/niobium/models/item/niobium_boots_amethyst_trim.json
@@ -47,7 +47,6 @@ c7cd274030f441e821798933d0bff86dbe87f98f assets/niobium/models/item/niobium_legg
 65768dd79723f8d46c93e52d15b1e21acde736c7 assets/niobium/models/item/niobium_leggings_netherite_trim.json
 5473518728f23505cbff337f11db61b6f9aed4bc assets/niobium/models/item/niobium_leggings_quartz_trim.json
 39a936a60d0e7fa8ba2e147be8534621ee7d8087 assets/niobium/models/item/niobium_leggings_redstone_trim.json
-29a4ff514702dc9cbb5f94986bc535a7648200c1 assets/niobium/models/item/niobium_metal_detector.json
 64acae9e27f141d750213b71210d4ea11cfa21ed assets/niobium/models/item/niobium_pickaxe.json
 73fe1c8269f61fb1368d812f21b5f915c70d76eb assets/niobium/models/item/niobium_scrap.json
 f64d344a021633761801a7805362fa610f42c560 assets/niobium/models/item/niobium_shovel.json

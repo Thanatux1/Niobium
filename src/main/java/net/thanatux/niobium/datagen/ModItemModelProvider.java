@@ -44,7 +44,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.NIOBIUM_FRAGMENT);
         simpleItem(ModItems.NIOBIUM_INGOT);
         simpleItem(ModItems.NIOBIUM_SCRAP);
-        simpleItem(ModItems.NIOBIUM_METAL_DETECTOR);
 
         handheldItem(ModItems.NIOBIUM_AXE);
         handheldItem(ModItems.NIOBIUM_PICKAXE);

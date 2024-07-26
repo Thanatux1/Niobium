@@ -52,6 +52,26 @@ public class Niobium
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.NIOBIUM_INGOT);
             event.accept(ModItems.NIOBIUM_FRAGMENT);
+            event.accept(ModItems.NIOBIUM_SCRAP);
+        }
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.NIOBIUM_HELMET);
+            event.accept(ModItems.NIOBIUM_CHESTPLATE);
+            event.accept(ModItems.NIOBIUM_LEGGINGS);
+            event.accept(ModItems.NIOBIUM_BOOTS);
+            event.accept(ModItems.NIOBIUM_SWORD);
+        }
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.NIOBIUM_AXE);
+            event.accept(ModItems.NIOBIUM_PICKAXE);
+            event.accept(ModItems.NIOBIUM_SHOVEL);
+            event.accept(ModItems.NIOBIUM_HOE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.DEEPSLATE_NIOBIUM_ORE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.NIOBIUM_BLOCK);
         }
     }
 

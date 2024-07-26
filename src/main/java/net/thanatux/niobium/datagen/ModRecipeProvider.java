@@ -39,12 +39,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.NIOBIUM_METAL_DETECTOR.get())
-                .pattern("  S")
-                .pattern(" R ")
+                .pattern(" IS")
+                .pattern("IR ")
                 .pattern("NNN")
                 .define('N', ModItems.NIOBIUM_INGOT.get())
                 .define('R', Items.REDSTONE)
                 .define('S', Items.STICK)
+                .define('I', Items.IRON_INGOT)
                 .unlockedBy(getHasName(ModItems.NIOBIUM_INGOT.get()), has(ModItems.NIOBIUM_INGOT.get()))
                 .save(pWriter);
 
