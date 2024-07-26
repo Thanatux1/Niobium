@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "niobium:niobium_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    "I I",
+    "N N"
+  ],
+  "result": {
+    "item": "niobium:niobium_boots"
+  },
+  "show_notification": true
+}

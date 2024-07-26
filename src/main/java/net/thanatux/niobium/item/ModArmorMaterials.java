@@ -11,8 +11,8 @@ import java.security.PrivateKey;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    NIOBIUM("niobium", 26, new int[]{5, 7, 5, 4}, 25,
-            SoundEvents.ARMOR_EQUIP_NETHERITE, 1f, 1f, () -> Ingredient.of(ModItems.NIOBIUM_INGOT.get()));
+    NIOBIUM("niobium", 26, new int[]{4, 5, 3, 2}, 25,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 1f, 0.5f, () -> Ingredient.of(ModItems.NIOBIUM_INGOT.get()));
 
     private final String name;
     private final int durabilityMultiplier;

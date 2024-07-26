@@ -20,6 +20,8 @@
   "item.niobium.niobium_leggings": "Niobium Leggings",
   "item.niobium.niobium_boots": "Niobium Boots",
 
-  "creativetab.niobium_tab": "Niobium Mod"
+  "creativetab.niobium_tab": "Niobium Mod",
 
+  "sounds.niobium.metal_detector_found_ore": "Metal detector have found ore",
+  "sounds.niobium.metal_detector_no_ore": "Metal detector didn't find ore"
 }

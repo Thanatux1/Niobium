@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "niobium:niobium_ingot",
+    "niobium:niobium_scrap",
+    "niobium:niobium_fragment",
+    "niobium:deepslate_niobium_fragment"
+  ]
+}

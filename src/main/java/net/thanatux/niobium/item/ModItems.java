@@ -7,6 +7,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.thanatux.niobium.Niobium;
+import net.thanatux.niobium.item.custom.ModArmorItem;
 import net.thanatux.niobium.item.custom.NiobiumMetalDetectorItem;
 
 public class ModItems {
@@ -34,13 +35,13 @@ public class ModItems {
             () -> new ShovelItem(ModToolTiers.NIOBIUM, 0, 0, new Item.Properties()));
 
     public static final RegistryObject<Item> NIOBIUM_HELMET = ITEMS.register("niobium_helmet",
-            () -> new ArmorItem(ModArmorMaterials.NIOBIUM, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.NIOBIUM, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> NIOBIUM_CHESTPLATE = ITEMS.register("niobium_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.NIOBIUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.NIOBIUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> NIOBIUM_LEGGINGS = ITEMS.register("niobium_leggings",
-            () -> new ArmorItem(ModArmorMaterials.NIOBIUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.NIOBIUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> NIOBIUM_BOOTS = ITEMS.register("niobium_boots",
-            () -> new ArmorItem(ModArmorMaterials.NIOBIUM, ArmorItem.Type.BOOTS, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.NIOBIUM, ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
 

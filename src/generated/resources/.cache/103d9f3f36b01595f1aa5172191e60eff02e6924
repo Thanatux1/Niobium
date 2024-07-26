@@ -1,0 +1,4 @@
+// 1.20.1	2024-07-24T13:57:45.645768	Registries
+768f3963d26e82dff90caf5a98ca29546831cb5a data/niobium/forge/biome_modifier/add_niobium_ore.json
+5fe9769779e33ced799934dc427c647f05c1c86b data/niobium/worldgen/configured_feature/niobium_ore.json
+3b6229e84187ec16fccec763bcfe04e6edd0b2dc data/niobium/worldgen/placed_feature/niobium_ore_placed.json

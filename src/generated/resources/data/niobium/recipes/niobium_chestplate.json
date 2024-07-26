@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "niobium:niobium_ingot"
+    }
+  },
+  "pattern": [
+    "N N",
+    "NIN",
+    "NNN"
+  ],
+  "result": {
+    "item": "niobium:niobium_chestplate"
+  },
+  "show_notification": true
+}

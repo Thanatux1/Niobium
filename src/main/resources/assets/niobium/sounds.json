@@ -1,0 +1,14 @@
+{
+  "metal_detector_found_ore": {
+    "subtitles": "sounds.niobium.metal_detector_found_ore",
+    "sounds": [
+      "niobium:metal_detector_found_ore"
+    ]
+  },
+  "metal_detector_no_ore": {
+    "subtitles": "sounds.niobium.metal_detector_no_ore",
+    "sounds": [
+      "niobium:metal_detector_no_ore"
+    ]
+  }
+}

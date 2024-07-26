@@ -16,6 +16,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.thanatux.niobium.block.ModBlocks;
 import net.thanatux.niobium.item.ModCreativeModTabs;
 import net.thanatux.niobium.item.ModItems;
+import net.thanatux.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -32,6 +33,8 @@ public class Niobium
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         ModCreativeModTabs.register(modEventBus);
         modEventBus.addListener(this::commonSetup);

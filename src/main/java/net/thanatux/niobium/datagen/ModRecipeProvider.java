@@ -68,7 +68,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.NIOBIUM_INGOT.get()), has(ModItems.NIOBIUM_INGOT.get()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.NIOBIUM_SWORD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.NIOBIUM_SWORD.get())
                 .pattern(" N ")
                 .pattern(" I ")
                 .pattern(" S ")
@@ -94,6 +94,42 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('N', ModItems.NIOBIUM_INGOT.get())
                 .define('I', Items.IRON_INGOT)
                 .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.NIOBIUM_INGOT.get()), has(ModItems.NIOBIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.NIOBIUM_HELMET.get())
+                .pattern("NIN")
+                .pattern("N N")
+                .pattern("   ")
+                .define('N', ModItems.NIOBIUM_INGOT.get())
+                .define('I', Items.IRON_INGOT)
+                .unlockedBy(getHasName(ModItems.NIOBIUM_INGOT.get()), has(ModItems.NIOBIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.NIOBIUM_CHESTPLATE.get())
+                .pattern("N N")
+                .pattern("NIN")
+                .pattern("NNN")
+                .define('N', ModItems.NIOBIUM_INGOT.get())
+                .define('I', Items.IRON_INGOT)
+                .unlockedBy(getHasName(ModItems.NIOBIUM_INGOT.get()), has(ModItems.NIOBIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.NIOBIUM_LEGGINGS.get())
+                .pattern("NIN")
+                .pattern("N N")
+                .pattern("N N")
+                .define('N', ModItems.NIOBIUM_INGOT.get())
+                .define('I', Items.IRON_INGOT)
+                .unlockedBy(getHasName(ModItems.NIOBIUM_INGOT.get()), has(ModItems.NIOBIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.NIOBIUM_BOOTS.get())
+                .pattern("   ")
+                .pattern("I I")
+                .pattern("N N")
+                .define('N', ModItems.NIOBIUM_INGOT.get())
+                .define('I', Items.IRON_INGOT)
                 .unlockedBy(getHasName(ModItems.NIOBIUM_INGOT.get()), has(ModItems.NIOBIUM_INGOT.get()))
                 .save(pWriter);
 
